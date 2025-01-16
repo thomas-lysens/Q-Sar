@@ -22,12 +22,11 @@ But what makes it different from other Headless CMS out there? What features doe
 
 As stated earlier, this project is (mostly) written in Rust. The following crates (more might be added soon) are being used:
 
-- Axum (Has Tokio, Hyper and Tower included)
 - Hyper
 - Serde
 - Tokio
 - Tower
-- Tracer
+- Tracing
 
 By default this project uses **SurrealDB** as its database. SurrealDB is a multi-model database written in... Rust! The reason for choosing it is to see if a complete Rust based backend has benefits in performance and security. However, support for other databases (PostgreSQL, MySQL, MongoDB, ...) will be added as well over time.
 
